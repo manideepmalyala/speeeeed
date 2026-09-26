@@ -1,9 +1,9 @@
 {
   "expo": {
     "name": "speeeeed",
-    "slug": "speeeeed",
+    "slug": "speeeed",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
@@ -16,10 +16,17 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.manideepmalyala.speeeeed"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "68af1d12-f15b-4d7e-8f54-9eb5668103ad"
+      }
+    },
+    "owner": "manideepmalyala"
   }
 }
